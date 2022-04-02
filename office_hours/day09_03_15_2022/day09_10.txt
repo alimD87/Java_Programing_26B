@@ -1,0 +1,100 @@
+Day 09 -- Tuesday
+Day 10 -- Wednesday
+
+                - String Quiz Review
+
+				- Arrays Intro
+                	- Array Methods
+                	    - length
+                		- toString()
+                	- String Methods
+                		- split
+                		- toCharArray
+
+				 ==== Create a package named "day_Date" under the folder "officeHours" ====
+
+
+
+Task 01 : Write a program that accepts start and end numbers. Given start and end
+          numbers, return a new array containing the sequence of integers from start up to
+          but not including end, so start=5 and end=10 yields [5, 6, 7, 8, 9].
+
+                Input:
+                        start = 5    end = 10
+                Output
+                        int[] a → [5, 6, 7, 8, 9]
+                Input:
+                        start = 11    end = 18
+                Output
+                        int[] b → [11, 12, 13, 14, 15, 16, 17]
+
+
+Task 02 : Write a program that accepts an array and prints an array with the elements "rotated left”
+
+		int[] x = {1,2,3};			 // = > [2,3,1]
+		int[] y = {17,12,10,8};		 // = > [12,10,8,17]
+		int[] a = {7,0,0}; 			 // = > [0,0,7]
+
+
+Task 03 : Write a program that accepts string and prints multiple words in the string
+
+        "knife, wooden spoons, plates, cups, forks, pan, pot, trash can, fridge, dish washer”
+
+        output : wooden spoons
+        		 trash can
+         		 dish washer
+
+
+Task 04 : Write a program that accepts String array.Count how many names have the same first and last letter
+
+          				Input : "Anna", "Mike", "Aliya", "Donald", "Saim", "Remus", "Mehmet","Asya"
+
+          				Output :    4
+
+          			Small Task --> 	Find  the longest word at the same time  --> Donald
+
+Task 05 :Website checker
+
+         Given some urls determine how many .com, .org, and .edu websites there are.
+         Also keep track of an ‘other’ category for websites that have a different domain
+
+         Sample websites for an array:
+         bing.com, wikimedia.org, twitter.com, amazonaws.com, japanpost.jp, mysql.com,
+         nasa.gov, linkedin.com, ucla.edu, github.io, spotify.com, mozilla.org, nba.com,
+         comcast.net, tamu.edu, utexas.edu,
+
+
+Task 06 : Write a program that accepts and array. For each multiple of 10 in the given array, change all
+          the values following it to be that multiple of 10, until encountering another multiple of 10.
+
+           Input  :
+           int[] newArray = {5, 4, 40, 1, 60, 2, 30, 34, 70, 43, 2,80,67};
+
+           Output :         [5, 4, 40, 40, 60, 60, 30, 30, 70, 70, 70, 80, 80]
+
+Task 07 :  Write a method that accepts an array and prints the total of the numbers in the
+        array, except ignore sections of numbers starting with a 6 and extending to the
+        next 7 (every 6 will be followed by at least one 7).
+
+            int[] x = {1,2,2} = > 5
+            int[] y = {1, 2, 2, 6, 99, 99, 7} = > 5
+            int[] a = {1,1,6,7,2} = > 4
+            int[] b = {1,1,6,2} = > 2
+            int[] c = {1,2,2,6,99,99,7,3,4} = > 12
+
+
+
+
+CHALLENGE
+Real Interview Task-->  Longest Repetitive Substring
+
+
+    Write a program if some substring K that can be repeated N>1 times to produce the input string exactly as it appears.
+    Your program should return longest substring K, and
+    if there is none it should be return "There is no repetitive substring"
+
+    		For Example is str ="abcababcababcab"  			   output should be abcab
+    					   str ="abcdefabcdef"     			   output should be abcdef
+
+    					   str ="abcdefabcdefabcdefabcdef"    output should be abcdefabcdef
+    					   str ="abcdefxabcdef"				   output should be "There is no repetitive substring"

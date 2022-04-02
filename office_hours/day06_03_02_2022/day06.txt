@@ -1,0 +1,37 @@
+Strings -- >
+
+Task 1 : Assume that you searched a baby toy in Etsy.When you open related category your url is :
+
+		"https://www.etsy.com/c/toys-and-games/toys/baby-and-toddler-toys?ref=catnav-11049"
+			    		       (main category)
+
+		According to this result print out main category name
+
+			Input :  https://www.etsy.com/c/toys-and-games/toys/baby-and-toddler-toys?ref=catnav-11049
+
+			Output:
+				Main Category name is  toys and games
+
+			Input :  https://www.etsy.com/c/toys-and-entertainment?ref=catnav-11049
+						 				     (main category)
+
+			Output:
+				Main Category name is  toys and entertainment
+
+Task 2 : Assume that you searched a word in Google  Search Engine.After that you took a result message like this
+
+
+	   "About 3,640,000,000 results (0.78 seconds)"
+
+		According to this result print out search Time and number of Result
+
+		Input :  "About 640,000,000 results (0.78 seconds)"
+
+		Output:
+					Result number is 640,000,000
+					Response time is 0.78 seconds
+
+
+
+
+

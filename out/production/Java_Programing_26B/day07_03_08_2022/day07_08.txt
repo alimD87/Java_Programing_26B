@@ -1,0 +1,79 @@
+Day 07 -- Tuesday
+Day 08 -- Wednesday
+
+                - Unit Assesment 2 Review
+
+				---	Loops ---
+						- While
+						- Do while
+						- For Loop
+
+				 ==== Create a package named "day_Date" under the folder "officeHours" ====
+
+Task 01 : SumOfDigits
+
+        Write a program that can return the sum of digits from  a  string
+             		Ex:
+             			input: A1B2C3
+
+             			output: 6
+             					1+2+3
+
+Task 02 :    FINRA
+
+            1. Write a method which prints out the numbers from 1 to 100
+
+            but
+                for numbers which are a multiple of 3, print "FIN" instead of the number
+                for numbers which are a multiple of 5, print "RA" instead of the number.
+                for numbers which are a multiple of both 3 and 5, print "FINRA" instead of the number,
+
+                    ex:
+                        input : 100
+                        output:
+                            1 2 FIN 4 RA FIN 7 8 FIN RA 11 FIN 13 14 FINRA 16 17 FIN ..........91 92 FIN 94 RA FIN 97 98 FIN RA
+
+
+Task 03 : EncryptPassword
+
+              Given a string password. Encrypt with "x" a given password and print.
+               * password: cydeo
+               * encrypt with char :x
+               * output:cxyxdxexox
+
+Task 04 : Anagram
+
+                Given two Strings determine if they are anagram or not. Strings are anagram if
+                        they are built up of the same characters
+                 Ex:
+                    listen vs silent
+                    funeral vs  real fun
+                    a gentleman vs elegant man
+
+                 -> anagram
+                 Hint: look up and use replaceFirst() method
+
+Task 05 :  Camel Case
+
+				Given a String of words that follow Camel Case convention.
+
+				Every word, except the first word, begin with an uppercase letter.
+				The other characters of the word will be lowercase
+
+
+				-  Find and print each words are in the given String.
+
+						Input:  neverGiveUp
+						Output: Never
+								Give
+								Up
+
+Task 06: Unique Characters
+
+            Write a program that can return the unique chars  from  a  string
+
+            String str = "aabdfccfs";
+
+            Output : bds
+
+            Small Task --> Find me first Unique Char from the String
