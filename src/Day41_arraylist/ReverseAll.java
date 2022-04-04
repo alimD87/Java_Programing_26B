@@ -35,5 +35,6 @@ public class ReverseAll {
         System.out.println(reverseAll(list));
 
         System.out.println(reverseAll(ArrayListWithMethods.getDaysOfWeek()));
+        System.out.println();
     }
 }
