@@ -7,7 +7,7 @@ public class UsingCar {
         car1.model = "Mercedes Benz";
         car1.year = 2022;
         car1.color = "Black";
-        car1.fuelLevel = 25;
+        car1.fuelLevel = 40;
         System.out.println(car1);
 
         System.out.println();
