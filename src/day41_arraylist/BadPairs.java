@@ -1,4 +1,4 @@
-package Day41_arraylist;
+package day41_arraylist;
 /*
     Given an ArrayList of words switch position for
     each pair in the List. A pair is an element and

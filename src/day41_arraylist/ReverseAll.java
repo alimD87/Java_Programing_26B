@@ -1,4 +1,4 @@
-package Day41_arraylist;
+package day41_arraylist;
 
 import day40_arrayList.ArrayListWithMethods;
 import my_utilities.StringUtil;

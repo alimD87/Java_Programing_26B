@@ -8,7 +8,7 @@ public class Car {
     double fuelLevel;
 
     public String toString() {
-        return model + " \nYear: " + year + "\nColor: " + color + "\nFuel level: " + fuelLevel;
+        return "Model: " + model + " \nYear: " + year + "\nColor: " + color + "\nFuel level: " + fuelLevel;
 
     }
 
@@ -19,7 +19,7 @@ public class Car {
     }
 
     public void fillTank() {
-        System.out.println("Filling tank " + fuelLevel);
+        System.out.println("Filling the tank " + fuelLevel);
 
     }
 
