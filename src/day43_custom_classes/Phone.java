@@ -40,12 +40,33 @@ public class Phone {
 
     }
 
-    @Override
-    public String toString() {
-        return "Phone: " +
-                " Name: " + name +
-                " Brand: " + brand +
-                " Memory: " + memory +
-                " Version: " + version;
+    public String toString(){
+
+        String obj = name + " | ";
+
+        if (brand != null){
+            obj += brand + " | ";
+        }
+
+        if (memory !=0){
+            obj += memory + " | ";
+        }
+
+        if (version != 0.0){
+            obj += version;
+        }
+
+        return obj;
+
     }
-}
+   // This version is the default
+
+//    @Override
+//    public String toString() {
+//        return "Phone: " +
+//                " Name: " + name +
+//                " Brand: " + brand +
+//                " Memory: " + memory +
+//                " Version: " + version;
+    }
+
