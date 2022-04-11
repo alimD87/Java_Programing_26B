@@ -17,17 +17,17 @@ public class ArrayListTask {
 
 
         ArrayList<String> list = new ArrayList<>(Arrays.asList("Chocolate", "Rabbit", "Egg", "Easter", "Hunt", "Basket", "Marshmallow", "Bowtie", "Rose"));
-        ArrayList <String> sixWords = new ArrayList<>();
+        ArrayList <String> sixMoreWords = new ArrayList<>(); //Created a New ArrayList
 
-        for (int i = 0, j=0; i < list.size(); i++) {
-            String word = list.get(i);
-            if (word.length()>6){
-                sixWords.add(word);
+        for (int i = 0, j=0; i < list.size(); i++) { // (i) is Adding new element at the end of the list and (j) checking the condition of the word
+            String word = list.get(i); // returns the element at specified position.
+            if (word.length()>6){ // to check if length more than 6 letters
+                sixMoreWords.add(word); // this method is used to add our string word too the end of the list.
             }
 
         }
 
-        System.out.println(sixWords);
+        System.out.println(sixMoreWords);
 
     }
 }
