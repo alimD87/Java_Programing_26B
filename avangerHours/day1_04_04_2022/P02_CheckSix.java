@@ -1,3 +1,5 @@
+package day1_04_04_2022;
+
 public class P02_CheckSix {
     public static void main(String[] args) {
         /*
