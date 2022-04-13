@@ -3,7 +3,7 @@ package day45_custom_classes;
 import java.util.Arrays;
 
 public class Store {
-      /*
+     /*
         Create a separate class to create and test the Food objects
         try making an array of Food objects
         find all the Food objects that start with 'a'
@@ -30,9 +30,9 @@ public class Store {
         System.out.println(apples);
         System.out.println(apples.totalPrice);
 
-        String[] strs = {"one", "two", "three"}; // not doing anything with this array, just a reference to see we have worked with object types with arrays
+        String [] strs = {"one", "two", "three"}; // not doing anything with this array, just a reference to see we have worked with object types with arrays
 
-        Food[] allFood = {apples, chips, chicken, null}; // = new Food[4]
+        Food [] allFood = {apples, chips, chicken, null}; // = new Food[4]
         System.out.println(allFood[2]);
 
         allFood[3] = new Food("Fish", 4, 3.55); // making a new Food object assigning it into the array in index 3
@@ -43,7 +43,7 @@ public class Store {
         System.out.println();
         double totalPriceAll = 0;
 
-        for (Food each : allFood) { // each == allFood[i]  // why is Food the first thing in the for each - it is the datatype of each element
+        for(Food each : allFood){ // each == allFood[i]  // why is Food the first thing in the for each - it is the datatype of each element
             System.out.println(each); // extra line just to see each Food object, each iteration
             totalPriceAll += each.totalPrice; // takes the Food object's total price instance variable value
         }
