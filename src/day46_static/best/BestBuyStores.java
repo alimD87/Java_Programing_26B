@@ -1,4 +1,6 @@
-package day46_static;
+package day46_static.best;
+
+import day46_static.best.BestBuy;
 
 public class BestBuyStores {
     public static void main(String[] args) {
