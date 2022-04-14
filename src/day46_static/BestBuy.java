@@ -6,9 +6,16 @@ public class BestBuy {
 
     static String headquarters = "Richfield, Minnesota, United States";
     static String day = "Wednesday";
-    static int numberOfComputers = 100;
+    static int numberOfComputer = 100;
 
     public BestBuy(String location) {
         this.location = location;
     }
-}
+
+    public void openStore(){
+        System.out.println("Opening the " + location);
+    }
+    public static void reStock(){
+        numberOfComputer += 20;
+    }
+    }
