@@ -1,4 +1,4 @@
-package day43_custom_classes;
+package day41_arraylist.day43_custom_classes;
 
 public class UseCarpet {
     public static void main(String[] args) {

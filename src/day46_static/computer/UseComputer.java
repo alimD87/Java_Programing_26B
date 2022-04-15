@@ -1,4 +1,6 @@
-package day46_static;
+package day46_static.computer;
+
+import day46_static.computer.Computer;
 
 public class UseComputer {
     public static void main(String[] args) {

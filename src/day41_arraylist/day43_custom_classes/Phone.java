@@ -1,4 +1,4 @@
-package day43_custom_classes;
+package day41_arraylist.day43_custom_classes;
 /*
 
       create instance variables

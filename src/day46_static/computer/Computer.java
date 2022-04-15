@@ -1,4 +1,4 @@
-package day46_static;
+package day46_static.computer;
 /*
 Computer - static
 
