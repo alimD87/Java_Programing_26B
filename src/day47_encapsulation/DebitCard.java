@@ -78,14 +78,14 @@ public class DebitCard {
         String info = "Holder Name: "  + holderName;
 
         if (cardNumber != 0){
-            info += "\n Card Number: " + cardNumber;
+            info += "\nCard Number: " + cardNumber;
         }
 
         if (cardType != null){
-            info += "\n Card Type: " +cardType;
+            info += "\nCard Type: " +cardType;
         }
 
-         info += "\n Balance: " + balance;
+         info += "\nBalance: " + balance;
         return info;
     }
 
