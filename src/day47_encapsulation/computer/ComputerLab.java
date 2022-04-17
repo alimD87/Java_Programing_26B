@@ -1,4 +1,6 @@
-package day47_encapsulation;
+package day47_encapsulation.computer;
+
+import day47_encapsulation.computer.Computer;
 
 public class ComputerLab {
     public static void main(String[] args) {
