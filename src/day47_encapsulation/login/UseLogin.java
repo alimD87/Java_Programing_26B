@@ -1,4 +1,6 @@
-package day47_encapsulation;
+package day47_encapsulation.login;
+
+import day47_encapsulation.login.Login;
 
 public class UseLogin {
     public static void main(String[] args) {

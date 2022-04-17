@@ -1,4 +1,4 @@
-package day47_encapsulation;
+package day47_encapsulation.login;
 
 public class Login {
 
