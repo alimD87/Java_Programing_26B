@@ -1,4 +1,6 @@
-package day48_encapsulations;
+package day48_encapsulations.pizza;
+
+import day48_encapsulations.pizza.Pizza;
 
 public class PizzaStore {
     public static void main(String[] args) {

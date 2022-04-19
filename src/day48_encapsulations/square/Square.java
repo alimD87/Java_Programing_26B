@@ -1,4 +1,4 @@
-package day48_encapsulations;
+package day48_encapsulations.square;
 
 public class Square {
       /*

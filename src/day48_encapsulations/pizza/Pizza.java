@@ -1,4 +1,4 @@
-package day48_encapsulations;
+package day48_encapsulations.pizza;
 /*
        create a class called Pizza
 
