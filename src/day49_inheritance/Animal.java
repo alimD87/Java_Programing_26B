@@ -5,6 +5,13 @@ public class Animal {
     int numberOfLegs;
 
     public void walk(){
+<<<<<<< HEAD
         System.out.println( species + " is walking");
     }
+=======
+        System.out.println("Animal is walking");
+    }
+
+
+>>>>>>> origin/master
 }

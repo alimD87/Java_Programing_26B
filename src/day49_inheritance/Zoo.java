@@ -3,6 +3,7 @@ package day49_inheritance;
 public class Zoo {
     public static void main(String[] args) {
 
+<<<<<<< HEAD
         Animal animal = new Animal();
         animal.species = "Generic Animal";
         animal.numberOfLegs = 0;
@@ -26,3 +27,17 @@ public class Zoo {
 
     }
 
+=======
+    Animal animal = new Animal();
+    animal.species = "Generic Animal";
+    animal.numberOfLegs = 0;
+        animal.walk();
+
+    Dog dog = new Dog();
+    dog.species = "Dog";
+    dog.numberOfLegs = 4;
+
+
+}
+}
+>>>>>>> origin/master
