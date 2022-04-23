@@ -1,10 +1,7 @@
 package day51_inheritance.app;
 
-import day42_custom_classes.App;
 
-
-
-    public class Instagram extends app {
+public class Instagram extends app {
 
         public Instagram(double version){
             super("Instagram", version);
