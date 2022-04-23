@@ -1,6 +1,8 @@
-package day51_inheritance.access;
+package day51_inheritance.access.b;
 
-public class Four extends First{
+import day51_inheritance.access.a.First;
+
+public class Four extends First {
     // different class, different package
     // with inheritance
 

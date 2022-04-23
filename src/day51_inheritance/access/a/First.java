@@ -1,4 +1,4 @@
-package day51_inheritance.access;
+package day51_inheritance.access.a;
 
 public class First {
     public int one = 1;

@@ -1,4 +1,6 @@
-package day51_inheritance.access;
+package day51_inheritance.access.a;
+
+import day51_inheritance.access.a.First;
 
 public class Second {
     // different class, same package
