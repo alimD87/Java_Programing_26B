@@ -11,7 +11,7 @@ package Home_Practice;
 //
 //         #### Note: Can be done with separate if statement or a multi branch if statement
 //
-//         Main topics: if statements, primitive variables, operators
+//         Bed topics: if statements, primitive variables, operators
 
 import java.util.Scanner;
 

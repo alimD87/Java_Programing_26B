@@ -3,7 +3,7 @@ package day12_03_23_22;
 public class Po3_IQ_MinSteps {
     public static void main(String[] args) {
         /*
-         Task 5 :     Number of Steps to Main directory  --- Interview Task
+         Task 5 :     Number of Steps to Bed directory  --- Interview Task
     			 We have a record of every time a change of directory is performed.The different change directory functions are as follow ;
     				 ../  Move to parent folder of current folder
     				 ./   Remain in the same folder

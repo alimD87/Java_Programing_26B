@@ -12,13 +12,13 @@ public class P01_CategoryName {
 			Input :  https://www.etsy.com/c/toys-and-games/toys/baby-and-toddler-toys?ref=catnav-11049//
 
 			Output:
-				Main Category name is  toys and games
+				Bed Category name is  toys and games
 
 			Input :  https://www.etsy.com/c/toys-and-entertainment?ref=catnav-11049
 						 				     (main category)
 
 			Output:
-				Main Category name is  toys and entertainment
+				Bed Category name is  toys and entertainment
      */
     public static void main(String[] args) {
 

@@ -18,7 +18,7 @@ public class BestBuyStores {
 
         System.out.println(BestBuy.numberOfComputer);
 
-        BestBuy store2 = new BestBuy("Main St");
+        BestBuy store2 = new BestBuy("Bed St");
         System.out.println(store2.location);
 
         store2.numberOfComputer -= 5;
