@@ -1,4 +1,4 @@
-package day52_inheritance.final_example;
+package day52_inheritance.final_example.hiding;
 
 public class Person {
     String name = "James Bond";
@@ -17,5 +17,6 @@ class Runner {
 
         SecretIdentity secretIdentity = new SecretIdentity();
         System.out.println(secretIdentity.name);
+    }
 
 }

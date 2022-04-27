@@ -1,5 +1,7 @@
 package day52_inheritance.final_example;
 
+import day52_inheritance.final_example.hiding.A;
+
 public class CallMethods {
     public static void main(String[] args) {
 
