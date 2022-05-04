@@ -13,6 +13,8 @@ public class Translator {
         crimeanTatar.hi();
         crimeanTatar.bye();
 
+        System.out.println(Language.PLANET);
+
 
     }
 }
