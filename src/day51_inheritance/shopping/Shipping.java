@@ -1,4 +1,4 @@
-package day55_polymorphism.shopping;
+package day51_inheritance.shopping;
 /*
         Create an interface Shipping
     - Declare an abstract methods:
