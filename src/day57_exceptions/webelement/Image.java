@@ -5,7 +5,7 @@ package day57_exceptions.webelement;
 
         @Override
         public void click() {
-            System.out.println("Clicking the image");
+            System.out.println("Clicking the image.");
         }
 
         @Override

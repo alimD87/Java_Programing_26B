@@ -8,7 +8,7 @@ create a class Link
     public class Link implements WebElement{
         @Override
         public void click() {
-            System.out.println("Clicking Linked");
+            System.out.println("Clicking Linked.");
         }
 
         @Override

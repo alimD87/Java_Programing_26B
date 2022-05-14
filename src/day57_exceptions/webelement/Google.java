@@ -26,5 +26,6 @@ public class Google {
         allElements[2] = new Input();  // [LINK obj, INPUT obj, INPUT obj, null ]
         allElements[3] = new Image(); // [LINK obj, INPUT obj, INPUT obj, IMAGE obj ]
 
+        System.out.println("The End");
     }
 }

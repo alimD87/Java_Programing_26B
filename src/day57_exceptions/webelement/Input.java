@@ -13,12 +13,12 @@ create a class Input
 
         @Override
         public String getText() {
-            return "Input Text";
+            return "Input Text.";
         }
 
         @Override
         public void sendKeys(String txt) {
-            System.out.println("Sending txt to Input field");
+            System.out.println("Sending txt to Input field.");
             System.out.println(txt);
         }
 }

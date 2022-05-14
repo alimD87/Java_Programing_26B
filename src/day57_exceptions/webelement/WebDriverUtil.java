@@ -9,6 +9,7 @@ create a class WebDriverUtil
 
         public static void clickElement(WebElement element){
             element.click();
+            System.out.println();
         }
 
     }
